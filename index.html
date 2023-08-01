@@ -91,14 +91,15 @@
         <link rel="stylesheet" href="./assets/css/partials/header.css" />
         <link rel="stylesheet" href="./assets/css/partials/footer.css" />
         <link rel="stylesheet" href="./assets/css/components/hero.css" />
+        <link rel="stylesheet" href="./assets/css/components/function.css" />
 
         <title>Mobile Banking</title>
     </head>
     <body>
-        <div class="container">
+        
             <!-- PC Header -->
             <header class="header">
-                <div class="content">
+                <div class="content container">
                     <nav class="navbar">
                         <!-- Tablet/mobile menu -->
                         <label for="menu-checkbox" class="toggle-menu">
@@ -148,7 +149,9 @@
                         <!-- Action -->
                         <div class="actions">
                             <a href="#!" class="action-link">Log in</a>
-                            <a href="#!" class="btn action-btn">Sign up</a>
+                            <a href="#!" class="btn btn-black action-btn"
+                                >Sign up</a
+                            >
                         </div>
                     </nav>
                 </div>
@@ -185,21 +188,89 @@
                     </script>
                 </div>
             </header>
-
-            <!-- Section 1 -->
+        
+        <main class="container">
+            <!-- Hero -->
             <section class="hero">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <div class="inner hero__info">Hero left</div>
+                    <!-- Hero Info -->
+                    <div class="col-lg-6 col-12">
+                        <div class="hero__info">
+                            <p class="subtitle">Digital Smart Wallet</p>
+                            <h2 class="title hero__title">
+                                Digital
+                                <span class="payment">Payment</span>
+                                For Everyone.
+                            </h2>
+                            <p class="desc hero__desc">
+                                We bring together eveything that’s required to
+                                build websites and apps that accept payments and
+                                send payouts globally. We are the best platform.
+                            </p>
+                            <div class="hero__newsletters">
+                                <input
+                                    class="hero__newsletters-email"
+                                    type="email"
+                                    placeholder="Your email address"
+                                />
+                                <div class="btn btn-primary">Get Started</div>
+                            </div>
+                            <p class="hero__note">
+                                *We’ll respect the inbox and never share your
+                                email.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-lg-5 offset-lg-1 col-md-6 col-12">
-                        <div class="inner hero__media">Hero right</div>
+
+                    <!-- Hero media -->
+                    <div class="col-lg-5 offset-lg-1 col-12">
+                        <div class="hero__media">
+                            <div class="hero__img-wrap">
+                                <img
+                                    src="./assets/img/mobile-screen.svg"
+                                    alt=""
+                                    srcset="Mobile screen"
+                                    class="hero__media-img"
+                                />
+                            </div>
+
+                            <div class="hero__deposit">
+                                <div class="hero__deposit-inner">
+                                    <img
+                                        class="hero__deposit-icon"
+                                        src="./assets/icons/arrow_down.svg"
+                                        alt=""
+                                    />
+                                    <p class="hero__deposit-text">Deposit</p>
+                                </div>
+                                <p class="hero__deposit-number">$32000</p>
+                            </div>
+
+                            <div class="hero__interest">
+                                <p class="hero__interest-number">0%</p>
+                                <p class="hero__interest-text">interest</p>
+                            </div>
+
+                            <div class="hero__funds">
+                                <img
+                                    class="hero__funds-icon"
+                                    src="./assets/icons/currency.svg"
+                                    alt="currency"
+                                />
+                                <div>
+                                    <p class="hero__funds-number">$1.310</p>
+                                    <p class="hero__funds-text">
+                                        SECURED FUNDs
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <!-- Section 2 -->
-            <section>
+            <!-- Content -->
+            <section class="function">
                 <div class="row">
                     <div class="col-lg-5 col-md-6 col-12">
                         <div class="inner">Left</div>
@@ -287,7 +358,7 @@
                     </div>
                 </div>
             </section>
-        </div>
+        </main>
 
         <!-- Footer -->
         <footer class="footer">

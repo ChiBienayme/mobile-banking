@@ -14,7 +14,9 @@
 
 /* Tablet & mobile */
 @media screen and (max-width: 991px) {
-
+    .title {
+        font-size: 5rem;
+    }
 }
 
 /* Mobile */
@@ -23,5 +25,13 @@
         --spacer: 10px;
         padding-left: calc(var(--spacer) / 2);
         padding-right: calc(var(--spacer) / 2);
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+
+    .desc {
+        font-size: 1.4rem;
     }
 }
