@@ -22,7 +22,7 @@
 /* Mobile */
 @media screen and (max-width: 767px) {
     .container {
-        --spacer: 10px;
+        --spacer: 20px;
         padding-left: calc(var(--spacer) / 2);
         padding-right: calc(var(--spacer) / 2);
     }

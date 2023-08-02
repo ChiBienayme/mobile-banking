@@ -1,9 +1,9 @@
-/* Content */
+/* Function */
 .function {
     margin-top: 160px;
 }
 
-/* Media */
+/* Function Media */
 .function .function__media {
     position: relative;
     display: inline-flex;
@@ -11,6 +11,7 @@
 
 .function .function__media-img {
     display: block;
+    width: 413px;
     max-width: 100%;
     object-fit: cover;
 }
