@@ -13,7 +13,7 @@
     line-height: 1.67;
 }
 
-.hero .payment {
+.hero .text-color {
     color: #7264d6;
 }
 
@@ -162,29 +162,37 @@
 }
 
 /* PC */
-@media screen and (max-width: 1140px) {
+@media screen and (min-width: 992px) {
+
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Tablet & mobile */
+@media screen and (max-width: 991px) {
     .hero .row {
         display: flex;
-        align-content: center;
+        flex-wrap: wrap;
         flex-direction: column-reverse;
     }
+
     .hero .col-12 {
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
+    .hero .hero__info {
+        width: 100%;
+    }
+
     .hero .hero__media {
         margin-bottom: 100px;
     }
-}
 
-/* Tablet */
-@media screen and (min-width: 768px) and (max-width: 991px) {
-}
-
-/* Tablet & mobile */
-@media screen and (max-width: 991px) {
     .hero .hero__title {
         font-size: 5rem;
     }

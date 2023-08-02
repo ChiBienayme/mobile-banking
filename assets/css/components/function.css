@@ -6,10 +6,7 @@
 /* Media */
 .function .function__media {
     position: relative;
-}
-
-.function .function__img-wrap {
-    
+    display: inline-flex;
 }
 
 .function .function__media-img {
@@ -59,6 +56,7 @@
 
 .function .function__check-title {
     color: #212832;
+    font-family: Inter, sans-serif;
     font-size: 1.4rem;
     font-weight: 600;
     line-height: 1.2;
@@ -66,6 +64,7 @@
 
 .function .function__check-desc {
     color: #696d76;
+    font-family: Inter, sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.2;
@@ -96,6 +95,7 @@
 
 /* PC */
 @media screen and (min-width: 992px) {
+   
 }
 
 /* Tablet */
@@ -107,17 +107,36 @@
 
 /* Tablet & mobile */
 @media screen and (max-width: 991px) {
+    .function {
+        margin-top: 100px;
+    }
+
+    .function .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .function .col-12 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .function .function__media {
         margin-bottom: 80px;
+    }
+
+    .function .function__list {
+        margin-top: 50px;
     }
 }
 
 /* Mobile */
 @media screen and (max-width: 767px) {
-
     .function .function__card,
     .function .function__check {
         display: none;
     }
-
 }
