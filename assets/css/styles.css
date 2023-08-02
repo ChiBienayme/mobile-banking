@@ -113,14 +113,15 @@ input {
 }
 
 .title {
-    color: #212832;
-    font-size: 6rem;
+    margin-top: 12px;
+    color: var(--black-color);
+    font-size: 4rem;
     font-weight: 700;
-    line-height: 1.67;
+    line-height: 1.25;
 }
 
 .desc {
-    color: #696d76;
+    color: var(--text-color);
     font-size: 1.8rem;
     line-height: 1.17;
 }

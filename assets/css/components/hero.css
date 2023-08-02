@@ -7,6 +7,10 @@
 
 .hero .hero__title {
     margin-top: 12px;
+    color: #212832;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.67;
 }
 
 .hero .payment {
@@ -181,7 +185,9 @@
 
 /* Tablet & mobile */
 @media screen and (max-width: 991px) {
-    
+    .hero .hero__title {
+        font-size: 5rem;
+    }
 }
 
 /* Mobile */
@@ -194,5 +200,9 @@
 
     .hero .hero__media {
         margin-bottom: 50px;
+    }
+
+    .hero .hero__title {
+        font-size: 4rem;
     }
 }
