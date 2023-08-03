@@ -40,10 +40,7 @@
 }
 
 .update .update__item-content {
-    width: 332px;
-    max-width: 100%;
     display: inline-block;
-    margin-right: -28px;
 
 }
 
@@ -85,4 +82,9 @@
 
 /* Mobile */
 @media screen and (max-width: 767px) {
+    .update .update__item {padding: 10px;}
+    .update .update__left {
+        width: 400px;
+        max-width: 100%;
+    }
 }

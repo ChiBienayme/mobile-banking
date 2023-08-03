@@ -7,10 +7,6 @@
     text-align: center;
 }
 
-.client .subtitle {
-    display: inline-flex;
-}
-
 /* Client reviews */
 .client__slides {
     display: flex;
