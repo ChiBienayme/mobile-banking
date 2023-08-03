@@ -95,6 +95,7 @@
         <link rel="stylesheet" href="./assets/css/components/payment.css" />
         <link rel="stylesheet" href="./assets/css/components/transfer.css" />
         <link rel="stylesheet" href="./assets/css/components/client.css" />
+        <link rel="stylesheet" href="./assets/css/components/update.css" />
 
         <title>Mobile Banking</title>
     </head>
@@ -537,22 +538,263 @@
             <section class="client">
                 <div class="row">
                     <div class="col">
-                        <div class="inner">Center</div>
+                        <div class="client__header">
+                            <p class="subtitle">Our Testimonial</p>
+                            <h3 class="title">What Clients Says</h3>
+                            <p class="desc">
+                                Read what clients says about us and about our
+                                online banking services that may inspire you
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="row row-cols-lg-2 row-cols-md-2 row-cols-1">
-                    <div class="col">
-                        <div class="inner">Item 1</div>
+                <div class="client__slides">
+                    <!-- Client previous -->
+                    <button class="client__control" onclick="plusSlides(-1)">
+                        <svg
+                            width="20"
+                            height="21"
+                            viewBox="0 0 20 21"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M16.875 10.9985H3.125"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                            <path
+                                d="M8.75 5.37354L3.125 10.9985L8.75 16.6235"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </button>
+
+                    <!-- Client's reviews -->
+                    <div class="client__reviews">
+                        <div class="row row-cols-lg-2 row-cols-md-2 row-cols-1">
+                            <!-- Client review 1 -->
+                            <article class="col client__reviews-item">
+                                <div class="client__reviews-content">
+                                    <p class="client__reviews-text">
+                                        Fantastic platform for online banking.
+                                        The best online banking platform I have
+                                        used. Payments, loans, and money
+                                        transfers have never been so much easier
+                                        before. I am very much happy about this
+                                        great online bank.
+                                    </p>
+                                </div>
+                                <figure class="client__person">
+                                    <img
+                                        src="./assets/img/staff1.png"
+                                        alt=""
+                                        class="client__person-img"
+                                    />
+                                    <figcaption class="client__person-info">
+                                        <p class="client__person-name">
+                                            Alastair Cook 1
+                                        </p>
+                                        <p class="client__person-position">
+                                            Businessmen
+                                        </p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+
+                            <!-- Client review 2 -->
+                            <article class="col client__reviews-item">
+                                <div class="client__reviews-content">
+                                    <p class="client__reviews-text">
+                                        Fantastic platform for online banking.
+                                        The best online banking platform I have
+                                        used. Payments, loans, and money
+                                        transfers have never been so much easier
+                                        before. I am very much happy about this
+                                        great online bank.
+                                    </p>
+                                </div>
+
+                                <figure class="client__person">
+                                    <img
+                                        src="./assets/img/man.png"
+                                        alt=""
+                                        class="client__person-img"
+                                    />
+                                    <figcaption class="client__person-info">
+                                        <p class="client__person-name">
+                                            Alastair Foaks 2
+                                        </p>
+                                        <p class="client__person-position">
+                                            Businessmen
+                                        </p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+
+                            <!-- Client review 3 -->
+                            <article class="col client__reviews-item">
+                                <div class="client__reviews-content">
+                                    <p class="client__reviews-text">
+                                        Fantastic platform for online banking.
+                                        The best online banking platform I have
+                                        used. Payments, loans, and money
+                                        transfers have never been so much easier
+                                        before. I am very much happy about this
+                                        great online bank.
+                                    </p>
+                                </div>
+                                <figure class="client__person">
+                                    <img
+                                        src="./assets/img/staff1.png"
+                                        alt=""
+                                        class="client__person-img"
+                                    />
+                                    <figcaption class="client__person-info">
+                                        <p class="client__person-name">
+                                            Alastair Cook 3
+                                        </p>
+                                        <p class="client__person-position">
+                                            Businessmen
+                                        </p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+
+                            <!-- Client review 4 -->
+                            <article class="col client__reviews-item">
+                                <div class="client__reviews-content">
+                                    <p class="client__reviews-text">
+                                        Fantastic platform for online banking.
+                                        The best online banking platform I have
+                                        used. Payments, loans, and money
+                                        transfers have never been so much easier
+                                        before. I am very much happy about this
+                                        great online bank.
+                                    </p>
+                                </div>
+                                <figure class="client__person">
+                                    <img
+                                        src="./assets/img/staff1.png"
+                                        alt=""
+                                        class="client__person-img"
+                                    />
+                                    <figcaption class="client__person-info">
+                                        <p class="client__person-name">
+                                            Alastair Cook 4
+                                        </p>
+                                        <p class="client__person-position">
+                                            Businessmen
+                                        </p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+
+                            <!-- Client review 5 -->
+                            <article class="col client__reviews-item">
+                                <div class="client__reviews-content">
+                                    <p class="client__reviews-text">
+                                        Fantastic platform for online banking.
+                                        The best online banking platform I have
+                                        used. Payments, loans, and money
+                                        transfers have never been so much easier
+                                        before. I am very much happy about this
+                                        great online bank.
+                                    </p>
+                                </div>
+
+                                <figure class="client__person">
+                                    <img
+                                        src="./assets/img/man.png"
+                                        alt=""
+                                        class="client__person-img"
+                                    />
+                                    <figcaption class="client__person-info">
+                                        <p class="client__person-name">
+                                            Alastair Foaks 5
+                                        </p>
+                                        <p class="client__person-position">
+                                            Businessmen
+                                        </p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+
+                            <!-- Client review 6 -->
+                            <article class="col client__reviews-item">
+                                <div class="client__reviews-content">
+                                    <p class="client__reviews-text">
+                                        Fantastic platform for online banking.
+                                        The best online banking platform I have
+                                        used. Payments, loans, and money
+                                        transfers have never been so much easier
+                                        before. I am very much happy about this
+                                        great online bank.
+                                    </p>
+                                </div>
+                                <figure class="client__person">
+                                    <img
+                                        src="./assets/img/staff1.png"
+                                        alt=""
+                                        class="client__person-img"
+                                    />
+                                    <figcaption class="client__person-info">
+                                        <p class="client__person-name">
+                                            Alastair Cook 6
+                                        </p>
+                                        <p class="client__person-position">
+                                            Businessmen
+                                        </p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
                     </div>
-                    <div class="col">
-                        <div class="inner">Item 2</div>
-                    </div>
+
+                    <!-- Review next -->
+                    <button class="client__control" onclick="plusSlides(1)">
+                        <svg
+                            width="20"
+                            height="21"
+                            viewBox="0 0 20 21"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M3.125 10.9985H16.875"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                            <path
+                                d="M11.25 5.37354L16.875 10.9985L11.25 16.6235"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="row">
+                    <ul class="col dots">
+                        <li class="dot" onclick="currentSlide(1)"></li>
+                        <li class="dot" onclick="currentSlide(2)"></li>
+                        <li class="dot" onclick="currentSlide(3)"></li>
+                    </ul>
                 </div>
             </section>
 
-            <!-- Section 6 -->
-            <section>
+            <!-- Update -->
+            <section class="update">
                 <div class="row">
                     <div class="col">
                         <div class="inner">
