@@ -96,6 +96,7 @@
         <link rel="stylesheet" href="./assets/css/components/transfer.css" />
         <link rel="stylesheet" href="./assets/css/components/client.css" />
         <link rel="stylesheet" href="./assets/css/components/update.css" />
+        <link rel="stylesheet" href="./assets/css/components/download.css" />
 
         <title>Mobile Banking</title>
     </head>
@@ -187,7 +188,7 @@
                     const mobileNav = document.querySelector("#mobile-nav");
 
                     //   Copy from pc nav to mobile nav
-                    mobileNav.innerHTML = pcNav.innerHTML;
+                    mobileNav.update__itemHTML = pcNav.update__itemHTML;
                 </script>
             </div>
         </header>
@@ -238,7 +239,7 @@
                             </div>
 
                             <div class="hero__deposit">
-                                <div class="hero__deposit-inner">
+                                <div class="hero__deposit-update__item">
                                     <img
                                         class="hero__deposit-icon"
                                         src="./assets/icons/arrow_down.svg"
@@ -797,31 +798,105 @@
             <section class="update">
                 <div class="row">
                     <div class="col">
-                        <div class="inner">
-                            <div>Left</div>
-                            <div>Right</div>
+                        <div class="update__header">
+                            <div class="update__left">
+                                <p class="subtitle">Our Blog</p>
+                                <h3 class="title">Get The Updates</h3>
+                                <p class="desc">
+                                    Read our blog for the regular updates about
+                                    us and about our online banking services
+                                    that may inspire you
+                                </p>
+                            </div>
+                            <div>
+                                <button class="btn btn-black">Read All</button>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="row row-cols-lg-2 row-cols-md-2 row-cols-1">
-                    <div class="col">
-                        <div class="inner">Item 1</div>
-                    </div>
-                    <div class="col">
-                        <div class="inner">Item 2</div>
-                    </div>
-                    <div class="col">
-                        <div class="inner">Item 3</div>
-                    </div>
-                    <div class="col">
-                        <div class="inner">Item 4</div>
-                    </div>
+                <div class="row row-cols-lg-2 row-cols-md-2 row-cols-1 green">
+                        <div class="col">
+                            <div class="update__item">
+                                <img
+                                    src="./assets/img/update1.jpg"
+                                    alt=""
+                                    class="update__item-img"
+                                />
+                                <div class="update__item-content">
+                                    <p class="update__item-date">July 03, 2022</p>
+                                    <p class="update__item-title line-clamp">
+                                        Online bank is the best and secure way to
+                                        save in the future...
+                                    </p>
+                                    <a href="#!" class="update__item-link"></a>
+                                        Read Blog
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                           <div class="update__item">
+                                <img
+                                    src="./assets/img/update2.jpg"
+                                    alt=""
+                                    class="update__item-img"
+                                />
+                                <div class="update__item-content">
+                                    <p class="update__item-date">July 03, 2022</p>
+                                    <p class="update__item-title line-clamp">
+                                        Why do you need to open a bank account in
+                                        online...
+                                    </p>
+                                    <a href="#!" class="update__item-link">
+                                        Read Blog
+                                    </a>
+                                </div>
+                           </div>
+                        </div>
+                        <div class="col">
+                            <div class="update__item">
+                                <img
+                                    src="./assets/img/update3.jpg"
+                                    alt=""
+                                    class="update__item-img"
+                                />
+                                <div class="update__item-content">
+                                    <p class="update__item-date">July 03, 2022</p>
+                                    <p class="update__item-title line-clamp">
+                                        The benefits that we get from credit card at
+                                        anytime...
+                                    </p>
+                                    <a href="#!" class="update__item-link">
+                                        Read Blog
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="update__item">
+                                <img
+                                    src="./assets/img/update4.jpg"
+                                    alt=""
+                                    class="update__item-img"
+                                />
+                                <div class="update__item-content">
+                                    <p class="update__item-date">July 03, 2022</p>
+                                    <p class="update__item-title line-clamp">
+                                        How to manage your money in online in this
+                                        busy days...
+                                    </p>
+                                    <a href="#!" class="update__item-link">
+                                        Read Blog
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </section>
 
             <!-- Section 7 -->
-            <section>
+            <section class="download">
                 <div class="row">
                     <div class="col">
                         <div class="inner">Download the Apps</div>
