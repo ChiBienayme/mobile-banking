@@ -83,6 +83,9 @@
         />
         <meta name="theme-color" content="#ffffff" />
 
+        <!-- AOS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <!-- CSS -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/grid.css" />
@@ -274,7 +277,7 @@
             </section>
 
             <!-- How it works - Function -->
-            <section class="function">
+            <section class="function"  data-aos="fade-down">
                 <div class="row">
                     <!-- Function media -->
                     <div class="col-lg-5 col-12">
@@ -355,7 +358,7 @@
             </section>
 
             <!-- Payment -->
-            <section class="payment">
+            <section class="payment"  data-aos="fade-down">
                 <div class="row">
                     <!-- Payment info -->
                     <div class="col-lg-5 col-12">
@@ -436,7 +439,7 @@
             </section>
 
             <!-- Transfer Methods-->
-            <section class="transfer">
+            <section class="transfer"  data-aos="fade-down">
                 <div class="row">
                     <div class="col-lg-5 col-12">
                         <!-- Transfer media -->
@@ -536,7 +539,7 @@
             </section>
 
             <!-- Client -->
-            <section class="client">
+            <section class="client"  data-aos="fade-down">
                 <div class="row">
                     <div class="col">
                         <div class="client__header">
@@ -795,7 +798,7 @@
             </section>
 
             <!-- Update -->
-            <section class="update">
+            <section class="update"  data-aos="fade-down">
                 <div class="row">
                     <div class="col">
                         <div class="update__header">
@@ -896,7 +899,7 @@
             </section>
 
             <!-- Download -->
-            <section class="download">
+            <section class="download"  data-aos="fade-down">
                 <div class="row">
                     <div class="col-12">
                         <div class="download__wrap">
@@ -918,7 +921,7 @@
         </main>
 
         <!-- Footer -->
-        <footer class="footer">
+        <footer class="footer"  data-aos="fade-down">
             <div class="container">
                 <div class="row footer__wrap">
                     <!-- Logo -->
@@ -1046,5 +1049,10 @@
         </footer>
 
         <script src="./assets/js/script.js"></script>
+        <script src="./assets/js/aos.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>
