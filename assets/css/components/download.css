@@ -87,12 +87,16 @@
         padding: 12px;
     }
 
-    .download .col {
+    .download .col-12 {
         padding: 0;
     }
 
     .download .desc {
         width: 350px;
+    }
+
+    .download .download__app {
+        gap: 10px;
     }
 
   

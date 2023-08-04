@@ -94,9 +94,14 @@
 
 /* Tablet & mobile */
 @media screen and (max-width: 991px) {
+    .footer {
+        margin-top: 100px;
+    }
+    
     .footer .footer__wrap {
         row-gap: 30px;
     }
+
     .footer .footer__info .row {
         justify-content: space-between;
     }

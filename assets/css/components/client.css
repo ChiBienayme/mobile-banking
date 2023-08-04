@@ -5,6 +5,7 @@
 
 .client .client__header {
     text-align: center;
+
 }
 
 /* Client reviews */
@@ -12,6 +13,7 @@
     display: flex;
     align-items: center;
 }
+
 .client__reviews {
     margin-top: 70px;
 }
@@ -198,11 +200,21 @@
 
 /* Tablet & mobile */
 @media screen and (max-width: 991px) {
-
+    .client .client__header {
+        text-align: inherit;
+    }
 }
 
 /* Mobile */
 @media screen and (max-width: 767px) {
+    .client {
+        margin-top: 100px;
+    }
+
+    .client__reviews {
+        margin-top: 0;
+    }
+
     .client .client__reviews-item {
         margin-top: 100px;
     }
@@ -217,5 +229,9 @@
 
     .client .client__person-position {
         font-size: 1.5rem;
+    }
+
+    .client .client__control {
+        display: none;
     }
 }
